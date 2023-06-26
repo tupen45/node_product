@@ -5,11 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm start",
-
-    
-    "start": "node Server.js"
-    
-
+    "start": "node server.js"
   },
   "keywords": [
     "tupen",
@@ -18,8 +14,8 @@
   "author": "tupen shil",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "formidable": "^2.1.1",
     "jsonwebtoken": "^9.0.0"
-  },
-  "devDependencies": {}
+  }
 }
