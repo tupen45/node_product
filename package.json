@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this client side code only with node js h",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "tupen",
+    "shill"
+  ],
+  "author": "tupen shil",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^2.1.1",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {}
+}
