@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm start",
-    "start": "node Server.js"
+    "start": "node Server.js",
     "build": "webpack --config webpack.config.js"
   },
   "keywords": [
