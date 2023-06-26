@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const cors = require("cors");
 var mysql = require('mysql');
 const { response } = require("express");
-const shut =require('shutdown-computer');
+
 const multer =require('multer');
 
  
