@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "npm start",
-    "start": "node server.js"
+    "start": "node Server.js"
   },
   "keywords": [
     "tupen",
