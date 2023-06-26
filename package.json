@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm start",
     "start": "node Server.js"
+    "build": "webpack --config webpack.config.js"
   },
   "keywords": [
     "tupen",
