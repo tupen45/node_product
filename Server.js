@@ -275,6 +275,18 @@ app.post('/orders',(req, res) => {
   });
 });
 
+//for party api post 
+app.post('/party',(req, res) => {
+  let data = {party:req.body.party};
+ let sql = "INSERT INTO party SET ?";
+//    let sql = "INSERT INTO employees (id, name, age, city) VALUES ('', 'Ajeet Kumar')";  
+   conn.query(sql, data,(err, results) => {
+    if(err) throw err;
+    res.send(JSON.stringify({"status": 200, "error": null, "response": results}));
+  });
+});
+
+
 
 app.post('/order123',(req, res) => {
   let data = {
