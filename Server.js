@@ -235,6 +235,20 @@ conn.query(`SELECT * FROM orders WHERE userid = ${conn.escape(req.body.userid)};
 // res.get(JSON.stringify({"status":200, "error": null, "response":result}));
 }); 
 });
+//TMC VOTING COUNT API
+
+app.post('/tmc',(req,res)=>{
+  
+conn.query(`SELECT * FROM party WHERE party = 'tmc';`, function(err, result){
+  if(err) throw err;
+ console.log(result);
+ res.send(result);
+// res.get(JSON.stringify({"status":200, "error": null, "response":result}));
+}); 
+});
+
+
+
 //fetxh orders datails api 
 app.post('/order_datails',(req,res)=>{
   
