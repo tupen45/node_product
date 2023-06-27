@@ -237,9 +237,9 @@ conn.query(`SELECT * FROM orders WHERE userid = ${conn.escape(req.body.userid)};
 });
 //TMC VOTING COUNT API
 
-app.post('/tmc',(req,res)=>{
+app.get('/tmc',(req,res)=>{
   
-conn.query(`SELECT * FROM `party` WHERE party = "tmc";`, function(err, result){
+conn.query(`SELECT * FROM party WHERE party = "tmc";`, function(err, result){
   if(err) throw err;
  console.log(result);
  res.send(result);
