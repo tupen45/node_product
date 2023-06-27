@@ -14,7 +14,7 @@ const bcrypt = require('bcryptjs');
 const http = require('http').createServer();
 var path = require('path');
 // const PaytmChecksum =require('paytmchecksum');
-const Config=require('./config')
+// const Config=require('./config')
 const https =require('https');
 // require('./routes')(app);
 
