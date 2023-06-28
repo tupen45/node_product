@@ -246,7 +246,26 @@ conn.query(`SELECT * FROM party WHERE party = "tmc";`, function(err, result){
 // res.get(JSON.stringify({"status":200, "error": null, "response":result}));
 }); 
 });
-
+//voting api for cong
+app.get('/cong',(req,res)=>{
+  
+conn.query(`SELECT * FROM party WHERE party = "cong";`, function(err, result){
+  if(err) throw err;
+ console.log(result);
+ res.send(result);
+// res.get(JSON.stringify({"status":200, "error": null, "response":result}));
+}); 
+});
+//vote for cpm
+app.get('/cpm',(req,res)=>{
+  
+conn.query(`SELECT * FROM party WHERE party = "cpm";`, function(err, result){
+  if(err) throw err;
+ console.log(result);
+ res.send(result);
+// res.get(JSON.stringify({"status":200, "error": null, "response":result}));
+}); 
+});
 
 
 //fetxh orders datails api 
