@@ -37,10 +37,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
   
 //create database connection
 const conn = mysql.createConnection({
-  host: "sql7.freemysqlhosting.net",
-  user: "sql7628860",
-  password: "JLuzN3M42Z",
-  database: "sql7628860"
+  host: "bguna2ygbsxih6zuyzel-mysql.services.clever-cloud.com",
+  user: "udxkxpubmrx1gbd3",
+  PORT:"3306",
+  password: "XCMO58IDhKsTKTiJPIr8",
+  database: "bguna2ygbsxih6zuyzel"
 });
  
 //connect to database 
