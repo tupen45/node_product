@@ -347,7 +347,7 @@ app.post('/order123',(req, res) => {
 
 
  
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   
   console.log("Server running successfully on 3000");
 });
