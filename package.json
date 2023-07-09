@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "this client side code only with node js h",
   "main": "Server.js",
+  "private":true,
   "scripts": {
     "test": "npm start",
     "start": "node Server.js"
